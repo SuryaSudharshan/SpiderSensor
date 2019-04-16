@@ -1,0 +1,96 @@
+[
+    {
+        "name": "building1",
+        "floordata": [
+            {
+                "name": "floor1",
+                "values": [
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 45.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    },
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 46.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisaaa"
+                    }
+                ]
+            },
+            {
+                "name": "floor2",
+                "values": [
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 47.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    },
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 48.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "building2",
+        "floordata": [
+            {
+                "name": "floor3",
+                "values": [
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 45.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    },
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 45.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    }
+                ]
+            },
+            {
+                "name": "floor4",
+                "values": [
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 45.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    },
+                    {
+                        "time": "2014-12-11T02:28:18.6327300Z",
+                        "hmdt": 45.0,
+                        "temp": 74.5,
+                        "prss": 98114.75,
+                        "lght": 0.06,
+                        "dspl": "R-Pi Elisa"
+                    }
+                ]
+            }
+        ]
+    }
+]

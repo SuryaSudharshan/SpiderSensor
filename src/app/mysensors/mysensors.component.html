@@ -1,0 +1,62 @@
+<div class="wrapper">
+  <div class="sidebar" data-background-color="black" data-active-color="danger">
+    <sidebar-cmp></sidebar-cmp>
+  </div>
+  <div class="main-panel">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="header">
+              <div class="row">
+                <div class="col-sm-3">
+                  <h4 class="title">My Sensors</h4>
+                </div>
+                <div class="col-sm-3">
+                  <div class="form group">
+                    <label>Building</label>
+                    <select class="form-control border-input" [(ngModel)]="selectedBuilding" (change)="buildingChanged()">
+                      <option *ngFor="let building of buildings" [ngValue]="building">{{building}}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="form group">
+                    <label>Floor</label>
+                    <select class="form-control border-input" [(ngModel)]="selectedFloor" (change)="floorChanged()">
+                      <option *ngFor="let floor of floors" [ngValue]="floor">{{floor}}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-refresh"></span> Refresh
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="content table-responsive table-full-width">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Temperature</th>
+                    <th>Pressure</th>
+                    <th>Humidity</th>
+                    <th>Light</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let row of tableData">
+                    <td>{{row.temp}}</td>
+                    <td>{{row.prss}}</td>
+                    <td>{{row.hmdt}}</td>
+                    <td>{{row.lght}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
