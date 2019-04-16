@@ -1,5 +1,6 @@
 ## Spider Sensor Website and Paper Dashboard
-
+Website loads as the first page.
+To visit the dashboard, just click on login in the navbar up top and without entering any credentials, just click on login and you will be redirected to the dashboard.
 ## Terminal Commands
 
 1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
